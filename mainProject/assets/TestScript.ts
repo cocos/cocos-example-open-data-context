@@ -10,11 +10,11 @@ export default class NewClass extends cc.Component {
     _viewVisible = true;
 
     onLoad () {
-        this.node.on(cc.Node.EventType.TOUCH_START, this.updateViewVisible, this);
+        this.node.on(cc.Node.EventType.TOUCH_END, this.updateViewVisible, this);
     }
 
     onDestroy () {
-        this.node.off(cc.Node.EventType.TOUCH_START, this.updateViewVisible, this);
+        this.node.off(cc.Node.EventType.TOUCH_END, this.updateViewVisible, this);
     }
 
     updateViewVisible () {
