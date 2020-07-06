@@ -3,8 +3,11 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
-    @property({type: cc.Node})
+    @property(cc.Node)
     subContextNode: cc.Node = null;
+
+    @property(cc.SubContextView)
+    subContextComp: cc.SubContextView = null;
 
     _tweening = false;
     _viewVisible = true;
@@ -37,6 +40,7 @@ export default class NewClass extends cc.Component {
         }).call(() => {
             this._viewVisible = false;
             this._tweening = false;
+            this.subContextComp.enabled = false;
         }).start();
     }
 
@@ -51,6 +55,7 @@ export default class NewClass extends cc.Component {
         }).call(() => {
             this._viewVisible = true;
             this._tweening = false;
+            this.subContextComp.enabled = true;
         }).start();
     }
 }

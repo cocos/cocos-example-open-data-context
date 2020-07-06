@@ -75,16 +75,16 @@
         "__id__": 5
       },
       {
-        "__id__": 8
+        "__id__": 7
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 15
+        "__id__": 14
       },
       {
-        "__id__": 16
+        "__id__": 15
       }
     ],
     "_prefab": null,
@@ -98,7 +98,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1280,
+      "width": 1279,
       "height": 720
     },
     "_anchorPoint": {
@@ -110,7 +110,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        640,
+        639.5,
         360,
         0,
         0,
@@ -174,7 +174,7 @@
       "array": [
         0,
         0,
-        252.8794179050561,
+        286.6544086526492,
         0,
         0,
         0,
@@ -245,9 +245,6 @@
     "_components": [
       {
         "__id__": 6
-      },
-      {
-        "__id__": 7
       }
     ],
     "_prefab": null,
@@ -331,33 +328,6 @@
     "_id": "61wZGBFhRIyqkmSHQm9sUz"
   },
   {
-    "__type__": "cc.Widget",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 5
-    },
-    "_enabled": true,
-    "alignMode": 1,
-    "_target": null,
-    "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
-    "_verticalCenter": 0,
-    "_horizontalCenter": 0,
-    "_isAbsLeft": true,
-    "_isAbsRight": true,
-    "_isAbsTop": true,
-    "_isAbsBottom": true,
-    "_isAbsHorizontalCenter": true,
-    "_isAbsVerticalCenter": true,
-    "_originalWidth": 100,
-    "_originalHeight": 100,
-    "_id": "73k5p/tsRCKp7xKRy+BnA8"
-  },
-  {
     "__type__": "cc.Node",
     "_name": "SubContext",
     "_objFlags": 0,
@@ -366,19 +336,19 @@
     },
     "_children": [
       {
-        "__id__": 9
+        "__id__": 8
       }
     ],
     "_active": true,
     "_components": [
       {
+        "__id__": 11
+      },
+      {
         "__id__": 12
       },
       {
         "__id__": 13
-      },
-      {
-        "__id__": 14
       }
     ],
     "_prefab": null,
@@ -392,7 +362,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 512,
+      "width": 511.6,
       "height": 576
     },
     "_anchorPoint": {
@@ -434,16 +404,16 @@
     "_name": "View",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 8
+      "__id__": 7
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 10
+        "__id__": 9
       },
       {
-        "__id__": 11
+        "__id__": 10
       }
     ],
     "_prefab": null,
@@ -457,7 +427,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 512,
+      "width": 511.6,
       "height": 576
     },
     "_anchorPoint": {
@@ -499,7 +469,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 9
+      "__id__": 8
     },
     "_enabled": true,
     "alignMode": 1,
@@ -526,18 +496,18 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 9
+      "__id__": 8
     },
-    "_enabled": true,
+    "_enabled": false,
     "_fps": 60,
-    "_id": "c4Qysjm7NJV6x8CKToMO2O"
+    "_id": "f2sETEmy9MUa52pxSi5ZWL"
   },
   {
     "__type__": "cc.Widget",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 8
+      "__id__": 7
     },
     "_enabled": true,
     "alignMode": 0,
@@ -564,7 +534,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 8
+      "__id__": 7
     },
     "_enabled": true,
     "_materials": [
@@ -596,7 +566,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 8
+      "__id__": 7
     },
     "_enabled": true,
     "_id": "39nvgi9dJJ35e1TGcBWMKe"
@@ -611,10 +581,10 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 1280,
+      "width": 1279,
       "height": 720
     },
-    "_fitWidth": false,
+    "_fitWidth": true,
     "_fitHeight": true,
     "_id": "59Cd0ovbdF4byw5sbjJDx7"
   },
@@ -627,7 +597,10 @@
     },
     "_enabled": true,
     "subContextNode": {
-      "__id__": 8
+      "__id__": 7
+    },
+    "subContextComp": {
+      "__id__": 10
     },
     "_id": "9c0EaX53dAyoy1k5e2Fr0y"
   }
