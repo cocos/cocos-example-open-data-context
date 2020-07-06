@@ -498,9 +498,10 @@
     "node": {
       "__id__": 8
     },
-    "_enabled": false,
+    "_enabled": true,
+    "_firstlyEnabled": true,
     "_fps": 60,
-    "_id": "f2sETEmy9MUa52pxSi5ZWL"
+    "_id": "343WuanRFNFqGoNJIGVtDW"
   },
   {
     "__type__": "cc.Widget",
