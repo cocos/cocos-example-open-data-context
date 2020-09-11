@@ -28,7 +28,6 @@
     "RichText",
     "Spine Skeleton",
     "StudioComponent",
-    "Toggle",
     "TiledMap",
     "VideoPlayer",
     "WebView",
@@ -60,5 +59,9 @@
       "enable": false
     }
   },
-  "last-module-event-record-time": 1594621179626
+  "last-module-event-record-time": 1599720270412,
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "clear-simulator-cache": true
 }

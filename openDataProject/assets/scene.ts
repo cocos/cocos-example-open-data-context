@@ -5,6 +5,13 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+let env = window.wx || window.tt || window.swan;
+env && env.onMessage(res => {
+    if (!res.fromEngine) {
+        console.log('Message recieved: ', res.value);
+    }
+});
+
 const {ccclass, property} = cc._decorator;
 import itemComponent from './item';
 

@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.1",
   "importer": "typescript",
   "imported": true,
   "uuid": "7352cd68-ece8-4702-b14b-b890678be1c9",
@@ -10,6 +10,7 @@
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/view.js"
+    "moduleId": "project:///assets/view.js",
+    "importerSettings": 3
   }
 }
