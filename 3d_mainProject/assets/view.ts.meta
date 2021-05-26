@@ -1,16 +1,14 @@
 {
-  "ver": "4.0.1",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "7352cd68-ece8-4702-b14b-b890678be1c9",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/view.js",
-    "importerSettings": 3
+    "importerSettings": 3,
+    "simulateGlobals": []
   }
 }
