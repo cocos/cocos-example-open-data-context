@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, tween, SubContextView, view, Vec3, Tween, ToggleComponent } from 'cc';
+import { _decorator, Component, Node, Toggle } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Typescript')
@@ -16,7 +16,7 @@ export class Typescript extends Component {
         }
     }
 
-    onToggle(toggle: ToggleComponent) {
+    onToggle(toggle: Toggle) {
         this.subContextNode.active = toggle.isChecked;
     }
 }
