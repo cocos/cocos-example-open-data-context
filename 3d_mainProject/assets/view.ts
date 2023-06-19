@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Toggle } from 'cc';
+import { _decorator, Component, Node, tween, SubContextView, view, Vec3, Tween, Toggle } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Typescript')
